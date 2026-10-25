@@ -10,17 +10,17 @@ make[2]: Leaving directory '/work/my_service/build'
 [ 11%] Built target create-runtests-my_service
 make[2]: Leaving directory '/work/my_service/build'
 make[2]: Entering directory '/work/my_service/build'
-[ 22%] Building CXX object CMakeFiles/my_service_proto.dir/proto/handlers/hello_client.usrv.pb.cpp.o
 [ 22%] Building CXX object CMakeFiles/my_service_proto.dir/proto/handlers/hello.grpc.pb.cc.o
-[ 27%] Building CXX object CMakeFiles/my_service_proto.dir/proto/handlers/hello.pb.cc.o
+[ 22%] Building CXX object CMakeFiles/my_service_proto.dir/proto/handlers/hello.pb.cc.o
+[ 33%] Building CXX object CMakeFiles/my_service_proto.dir/proto/handlers/hello_client.usrv.pb.cpp.o
 [ 33%] Building CXX object CMakeFiles/my_service_proto.dir/proto/handlers/hello_service.usrv.pb.cpp.o
-warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
-warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
-warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
-warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
-warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
-warning: warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
 
+warning: warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
 warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
 2 warnings generated.
 2 warnings generated.
@@ -32,17 +32,17 @@ make[2]: Leaving directory '/work/my_service/build'
 make[2]: Entering directory '/work/my_service/build'
 make[2]: Leaving directory '/work/my_service/build'
 make[2]: Entering directory '/work/my_service/build'
-[ 44%] Building CXX object CMakeFiles/my_service_objs.dir/src/hello.cpp.o
-[ 50%] Building CXX object CMakeFiles/my_service_objs.dir/src/hello_postgres.cpp.o
-[ 55%] Building CXX object CMakeFiles/my_service_objs.dir/src/greeting.cpp.o
+[ 44%] Building CXX object CMakeFiles/my_service_objs.dir/src/greeting.cpp.o
+[ 50%] Building CXX object CMakeFiles/my_service_objs.dir/src/hello.cpp.o
+[ 55%] Building CXX object CMakeFiles/my_service_objs.dir/src/hello_postgres.cpp.o
 [ 61%] Building CXX object CMakeFiles/my_service_objs.dir/src/hello_mongo.cpp.o
 warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
 warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
 warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
 warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
-warning: warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
-
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
 warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
 warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
 2 warnings generated.
 [ 66%] Building CXX object CMakeFiles/my_service_objs.dir/src/hello_grpc.cpp.o
@@ -58,13 +58,13 @@ make[2]: Entering directory '/work/my_service/build'
 make[2]: Entering directory '/work/my_service/build'
 make[2]: Entering directory '/work/my_service/build'
 make[2]: Leaving directory '/work/my_service/build'
-make[2]: Entering directory '/work/my_service/build'
-make[2]: Leaving directory '/work/my_service/build'
 make[2]: Leaving directory '/work/my_service/build'
 make[2]: Entering directory '/work/my_service/build'
 make[2]: Entering directory '/work/my_service/build'
+make[2]: Leaving directory '/work/my_service/build'
+make[2]: Entering directory '/work/my_service/build'
+[ 72%] Building CXX object CMakeFiles/my_service_unittest.dir/src/greeting_test.cpp.o
 [ 77%] Building CXX object CMakeFiles/my_service.dir/src/main.cpp.o
-[ 77%] Building CXX object CMakeFiles/my_service_unittest.dir/src/greeting_test.cpp.o
 [ 83%] Building CXX object CMakeFiles/my_service_benchmark.dir/src/greeting_benchmark.cpp.o
 warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
 warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]

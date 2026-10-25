@@ -1,18 +1,18 @@
 	Command being timed: "make -C /work/my_service/build -j4 -k"
-	User time (seconds): 182.05
-	System time (seconds): 17.98
-	Percent of CPU this job got: 269%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:14.27
+	User time (seconds): 93.27
+	System time (seconds): 7.52
+	Percent of CPU this job got: 263%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.25
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1293128
+	Maximum resident set size (kbytes): 1293196
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1518243
-	Voluntary context switches: 456
-	Involuntary context switches: 765
+	Major (requiring I/O) page faults: 130
+	Minor (reclaiming a frame) page faults: 1516610
+	Voluntary context switches: 9897
+	Involuntary context switches: 428
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

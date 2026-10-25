@@ -11,11 +11,8 @@ if(ENABLE_PCH)
       <handlers/hello_service.usrv.pb.hpp>
       "${CMAKE_CURRENT_SOURCE_DIR}/src/hello_grpc.hpp"
       "${CMAKE_CURRENT_SOURCE_DIR}/src/hello_postgres.hpp"
-      <handlers/hello.pb.h>
       <userver/components/component.hpp>
       <fmt/format.h>
-      "${CMAKE_CURRENT_SOURCE_DIR}/src/hello_mongo.hpp"
-      "${CMAKE_CURRENT_SOURCE_DIR}/src/hello.hpp"
   )
   target_precompile_headers(${PROJECT_NAME}_objs PRIVATE ${PCH_HEADERS})
   target_precompile_headers(${PROJECT_NAME} PRIVATE ${PCH_HEADERS})
@@ -37,3 +34,5 @@ CCACHE_DISABLE=1 /usr/bin/time -o /work/results/pch_time.txt -v \
 ClangBuildAnalyzer --all /work/my_service/build-pch /work/results/pch.cba
 
 ClangBuildAnalyzer --analyze /work/results/pch.cba > /work/results/pch_cba.txt
+
+find /work/my_service/build-pch -name "main.cpp*.json" -type f -exec cp {} /work/results/pch_main.json \; 2>/dev/null || true
